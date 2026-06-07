@@ -15,18 +15,12 @@ if __name__ == "__main__":
             "title":["Test", "Another Test", None],
             "body": ["Test Body", "Another Test Body", None]
         }
-
-
-
-df = pd.DataFrame(sample_data)
-
-print("Before cleaning:")
-print(df)
-
-cleaned_df = clean_posts(sample_data)
-
-print("\nAfter cleaning:")
-print(cleaned_df)
+    df = pd.DataFrame(sample_data)
+    print("Before cleaning:")
+    print(df)
+    cleaned_df = clean_posts(sample_data)
+    print("\nAfter cleaning:")
+    print(cleaned_df)
 
 
 
